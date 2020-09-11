@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jane - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/</link>
+    <link>http://liujingjie.github.io/</link>
     <description>Recent content on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://liujingjie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://liujingjie.github.io/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://liujingjie.github.io/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 &lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/post/goisforlovers/</link>
+      <link>http://liujingjie.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/goisforlovers/</guid>
+      <guid>http://liujingjie.github.io/post/goisforlovers/</guid>
       
         <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -75,7 +75,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://localhost:1313/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;http://liujingjie.github.io/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -86,7 +86,7 @@ page you are rendering. More details are available on the
 &lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://localhost:1313/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;http://liujingjie.github.io/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -217,7 +217,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://localhost:1313/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;http://liujingjie.github.io/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&amp;rsquo;t make a lot of sense. We&amp;rsquo;ve defined a variable in our front matter
